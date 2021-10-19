@@ -1,0 +1,63 @@
+ol, ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-around;
+}
+
+.commentItem {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #000;
+}
+
+.commentAuthor {
+  font-weight: 500;
+}
+
+.commentList {
+  margin-top: 25px;
+}
+
+.commentText {
+  height: 100px;
+}
+
+.commentDelete {
+  width: 20px;
+  height: 20px;
+  background-image: url('icons/button.png');
+  background-size: 20px;
+  padding: 0;
+  border: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.commentHead {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+}
+
+.commentDate {
+  border-top: 1px solid #000;
+}
+
+.formAuthor {
+  margin-bottom: 25px;
+}
+
+.formButton {
+  width: 120px;
+  margin-top: 25px;
+}
